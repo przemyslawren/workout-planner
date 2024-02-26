@@ -3,3 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.exercises-list-title {
+  color: #00adb5;
+}

@@ -14,7 +14,7 @@ function ExercisesList() {
 
   return (
     <div>
-      <h2>Exercise browser</h2>
+      <h1 className='exercises-list-title'>Exercise browser</h1>
       <div className="flex-container">
         {exercises.map((exercise) => (
           <ExerciseBox key={exercise.id} exercise={exercise} />

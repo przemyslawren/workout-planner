@@ -1,4 +1,5 @@
  .exercise-container {
+    background-color: #393E46;
     margin: 10px;
     border-radius: 8px;
     width: 300px;
@@ -7,7 +8,8 @@
   }
 
   .exercise-name {
-    height: 50px;
+    height: 60px;
+    font-size: large;
   }
   
   .exercise-container img {
