@@ -8,7 +8,7 @@ function ExerciseBox({ exercise }) {
     'https://github.com/yuhonas/free-exercise-db/blob/main/exercises/';
 
   const handleOnClick = () => {
-    navigate(`/exercises/${exercise.id}`); // Use the exercise ID to navigate
+    navigate(`/exercises/${exercise.id}`);
   };
 
   return (

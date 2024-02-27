@@ -1,19 +1,26 @@
- .exercise-container {
-    background-color: #393E46;
-    margin: 10px;
-    border-radius: 8px;
-    width: 300px;
-    text-align: center;
-    cursor: pointer;
-  }
+.exercise-container {
+  background-color: #393e46;
+  padding: 0;
+  margin: 10px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
 
-  .exercise-name {
-    height: 60px;
-    font-size: large;
-  }
-  
-  .exercise-container img {
-    max-width: 100%;
-    max-height: 200px;
-    border-radius: 8px;
-  }
+.exercise-name {
+  padding: 5%;
+}
+
+.exercise-name h3 {
+  font-weight: 100;
+  font-size: larger;
+}
+
+.exercise-container img {
+  vertical-align: bottom;
+  width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+}
